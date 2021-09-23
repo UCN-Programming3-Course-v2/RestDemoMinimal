@@ -3,7 +3,7 @@
 namespace RestGreetingDemo.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class HelloController : ControllerBase {
 
         [HttpGet]
